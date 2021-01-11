@@ -1,0 +1,54 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(198, 246, 255);
+    color: rgb(0, 117, 138);
+}
+
+#app {
+    margin: 20px 20px 20px 20px;
+    width: 50%;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: normal;
+    color: rgb(198, 246, 255);
+    background-color: rgb(0, 117, 138);
+    padding: 15px 5px 15px 5px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    text-transform: uppercase;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: rgb(0, 111, 133);
+    border: 1px solid rgb(0, 69, 82);
+    color: white;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.text-input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: white;
+    border: 1px solid rgb(0, 69, 82);
+}

@@ -11,10 +11,12 @@
 
     <div id="app">
 
+        <h1>The Mighty ToDo List</h1>
+
         <form v-on:submit.prevent = "saveNewTodo">
-            <label for="new-todo">Add a New Task:</label></br></br>
-            <input type="text" id="new-todo" v-model="newTodo"/></br></br>
-            <input type="submit" value="Add Task"/>
+            <label for="new-todo">Add a New Task</label>
+            <input class="text-input" type="text" id="new-todo" v-model="newTodo"/>
+            <input class="button" type="submit" value="Add Task"/>
         </form>
 
         <ul>
