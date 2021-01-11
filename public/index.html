@@ -11,7 +11,11 @@
 
     <div id="app">
 
-
+        <form v-on:submit.prevent = "saveNewTodo">
+            <label for="new-todo">Add a New Task:</label></br></br>
+            <input type="text" id="new-todo" v-model="newTodo"/></br></br>
+            <input type="submit" value="Add Task"/>
+        </form>
 
         <ul>
             <li v-for="todo in todos">{{  todo }}</li>
